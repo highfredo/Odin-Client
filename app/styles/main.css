@@ -1,12 +1,24 @@
 body {
-  padding-top: 70px;
+	padding-top: 70px;
 }
 
 .lista-directorios {
-  font-size: 1.3em;
+	font-size: 1.3em;
 }
 
 /* Angular-ui bootstrap fix */
 .nav, .pagination, .carousel, .panel-title a { 
-  cursor: pointer; 
+	cursor: pointer; 
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.disableClick{
+    pointer-events: none;
+}
+
+.file-icon {
+	font-size: 2em;
 }
